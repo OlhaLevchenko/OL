@@ -36,7 +36,7 @@ else if (selectedValue == "razn") {
   }
   }
   else if (selectedValue == "pr") {
-  if (x == razn){
+  if (x == pr){
     message = "OK";
   }
   else {
