@@ -17,7 +17,7 @@ function vibor(){
   
   let a = parseInt(firstNumberSel.value)
   let b = parseInt(secondNumberSel.value)
-  let x = parseInt(resultSel.value)
+  let r = parseInt(resultSel.value)
   
   let rez = null
   
