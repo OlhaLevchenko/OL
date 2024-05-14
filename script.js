@@ -1,6 +1,5 @@
-document.getElementById("b1").addEventListener("click", f1)
+//document.getElementById("b1").addEventListener("click", f1)
 document.getElementById("x").addEventListener("input", checkAllInputs)
-document.getElementById("b2").addEventListener("click", f2)
 document.getElementById("check").addEventListener("click", check)
 
 let firstNumberSel = document.getElementById("a")
@@ -14,9 +13,7 @@ function checkAllInputs(){
   let secondNumber = parseInt(secondNumberSel.value)
   if (Number.isInteger(firstNumber) && Number.isInteger(secondNumber) && operationSel.value != 'none'){
   document.getElementById("check").removeAttribute("disabled");}
-  // if (firstNumberSel.value != "" && secondNumberSel.value != "" && operationSel.value != 'none'){
-  // document.getElementById("check").removeAttribute("disabled");}
-}
+ }
 
 function check(){
   
