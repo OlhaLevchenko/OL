@@ -36,7 +36,7 @@ function vibor(){
 let message = ""
 let backgroundColor = "lightgreen"
 
- if (x == rez){
+ if (r == rez){
     message = "OK";
   }
   else {
@@ -52,6 +52,7 @@ let backgroundColor = "lightgreen"
   secondNumberSel.value = ""
   operationSel.value = "none"
   resultSel.value = ""
+  message = ""
  
 }
  
