@@ -43,7 +43,7 @@ function f1(){
   //let a = parseInt(number1.value)
  // let b = parseInt(number2.value)
  // let x = parseInt(result.value)
-  let summa = a + b
+  //let summa = a + b
   //let razn = a - b
   //let pr = a * b
   let message = ""
