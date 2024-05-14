@@ -36,7 +36,7 @@ function check(){
   }
 
 
-function f1(){
+//function f1(){
   
   //let a = parseInt(number1.value)
  // let b = parseInt(number2.value)
@@ -64,7 +64,7 @@ function f1(){
   secondNumberSel.value = ""
   operationSel.value = "none"
   selectedValue = ""  
-  message = ""  
+  //message = ""  
 
 }
 
