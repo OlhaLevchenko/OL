@@ -6,7 +6,7 @@ document.getElementById("check").addEventListener("click", check)
 let firstNumberSel = document.getElementById("a")
 let secondNumberSel = document.getElementById("b")
 let operationSel = document.getElementById("action")
-let resultSel = document.getElementById("sum")
+let resultSel = document.getElementById("x")
 
 
 function checkAllInputs(){
