@@ -2,7 +2,7 @@
 document.getElementById("x").addEventListener("input", checkAllInputs)
 document.getElementById("b1").addEventListener("click", check)
 
-let firstNumberSel = document.getElementById("a")
+let firstNumberSel = document.getElementById("fn")
 let secondNumberSel = document.getElementById("b")
 let operationSel = document.getElementById("action")
 let resultSel = document.getElementById("x")
