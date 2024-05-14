@@ -5,8 +5,6 @@ let firstNumberSel = document.getElementById("fn")
 let secondNumberSel = document.getElementById("b")
 let operationSel = document.getElementById("action")
 let resultSel = document.getElementById("x")
-//let selectedValue = document.getElementById("action").value;
-
 
 function checkAllInputs(){
   let firstNumber = parseInt(firstNumberSel.value)
@@ -20,7 +18,6 @@ function vibor(){
   let a = parseInt(firstNumberSel.value)
   let b = parseInt(secondNumberSel.value)
   let x = parseInt(resultSel.value)
-  
   
   let rez = null
   
