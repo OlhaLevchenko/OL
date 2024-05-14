@@ -1,6 +1,6 @@
 //document.getElementById("b1").addEventListener("click", f1)
 document.getElementById("x").addEventListener("input", checkAllInputs)
-document.getElementById("check").addEventListener("click", check)
+document.getElementById("b1").addEventListener("click", check)
 
 let firstNumberSel = document.getElementById("a")
 let secondNumberSel = document.getElementById("b")
