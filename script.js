@@ -1,8 +1,9 @@
 document.getElementById("b1").addEventListener("click", f1)
 document.getElementById("x").addEventListener("input", checkAllInputs)
+document.getElementById("b2").addEventListener("click", f2)
 document.getElementById("check").addEventListener("click", check)
 
-let firstNumberSel = document.getElementById("fn")
+let firstNumberSel = document.getElementById("a")
 let secondNumberSel = document.getElementById("b")
 let operationSel = document.getElementById("action")
 let resultSel = document.getElementById("sum")
