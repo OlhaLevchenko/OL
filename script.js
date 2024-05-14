@@ -12,7 +12,7 @@ function checkAllInputs(){
   let firstNumber = parseInt(firstNumberSel.value)
   let secondNumber = parseInt(secondNumberSel.value)
   if (Number.isInteger(firstNumber) && Number.isInteger(secondNumber) && operationSel.value != 'none'){
-  document.getElementById("check").removeAttribute("disabled");}
+  document.getElementById("b1").removeAttribute("disabled");}
  }
 
 function check(){
