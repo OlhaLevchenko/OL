@@ -6,6 +6,7 @@ let firstNumberSel = document.getElementById("fn")
 let secondNumberSel = document.getElementById("b")
 let operationSel = document.getElementById("action")
 let resultSel = document.getElementById("x")
+let selectedValue = document.getElementById("action").value;
 
 
 function checkAllInputs(){
