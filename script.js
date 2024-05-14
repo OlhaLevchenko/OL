@@ -1,4 +1,42 @@
 document.getElementById("b1").addEventListener("click", f1)
+document.getElementById("x").addEventListener("input", checkAllInputs)
+document.getElementById("check").addEventListener("click", check)
+
+let firstNumberSel = document.getElementById("fn")
+let secondNumberSel = document.getElementById("b")
+let operationSel = document.getElementById("op")
+let resultSel = document.getElementById("sum")
+
+
+function checkAllInputs(){
+  let firstNumber = parseInt(firstNumberSel.value)
+  let secondNumber = parseInt(secondNumberSel.value)
+  if (Number.isInteger(firstNumber) && Number.isInteger(secondNumber) && operationSel.value != 'none'){
+  document.getElementById("check").removeAttribute("disabled");}
+  // if (firstNumberSel.value != "" && secondNumberSel.value != "" && operationSel.value != 'none'){
+  // document.getElementById("check").removeAttribute("disabled");}
+}
+
+function check(){
+  
+  let a = parseInt(firstNumberSel.value)
+  let b = parseInt(secondNumberSel.value)
+  let s = parseInt(resultSel.value)
+
+  let summa = null
+  
+  switch (op.value) {
+    case '+':
+      summa = a + b;
+      break;
+    case '-':
+      summa = a - b;
+      break;
+    case '*':
+      summa = a * b;
+      break;
+  }
+
 
 function f1(){
 
