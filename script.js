@@ -32,7 +32,8 @@ function vibor(){
       rez = a * b;
       break;
   }
-
+console.log (rez)
+  console.log (r)
 let message = ""
 let backgroundColor = "lightgreen"
 
