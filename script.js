@@ -21,7 +21,7 @@ function vibor(){
   
   let rez = null
   
-  switch (action.value) {
+  switch (operationSel.value) {
     case '+':
       rez = a + b;
       break;
