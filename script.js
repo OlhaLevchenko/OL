@@ -22,13 +22,13 @@ function vibor(){
   let rez = null
   
   switch (operationSel.value) {
-    case '+':
+    case 'summ':
       rez = a + b;
       break;
-    case '-':
+    case 'razn':
       rez = a - b;
       break;
-    case '*':
+    case 'pr':
       rez = a * b;
       break;
   }
